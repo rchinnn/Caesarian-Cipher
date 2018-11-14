@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+export FLASK_APP=main.py
+flask run --port=5005
+localhost:5005/
 	<html>
 	<head>
 
-	<title>CubStart Server Demo!</title>
+	<title>Calhacks 5.0 Project: Caesarian Cipher using Rise API</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="../static/main.css" />
 	</head>
@@ -15,10 +18,10 @@
 			<br/>
 			<p id="number"></p>
 			<div class="textbox">
-		        <label for="text">Text:</label>
+		        <label for="text">Text (no spaces/punctuation please): </label>
 		        <input type="text" id="text" placeholder="string to decode" />
 		    </div>
-			<!-- <p id="text"></p> -->
+
 		</div>
 		<div id="logs">
 			<div id="requests">
